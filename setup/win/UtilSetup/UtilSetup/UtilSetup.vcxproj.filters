@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{d027b4f7-b73c-430f-a399-eb571e276039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo">
+      <UniqueIdentifier>{70aa689a-404c-498b-bd0f-51f23e842a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{be1c6768-9554-4d44-a5bf-25f1308d7b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{7fab8fec-05cb-46e3-bf5e-6b4deaf40f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{5b5bf087-1e8a-4776-b330-e4d769399c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\win32">
+      <UniqueIdentifier>{5dd3b428-a167-4c0d-b707-8c6e4b48faa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch">
+      <UniqueIdentifier>{352098be-467b-42ec-90f2-c0ae3fb7dc27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\demo\WinProc.cpp">
+      <Filter>demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\net\IDataSocket.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\net\NetworkAddress.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\arch\Arch.cpp">
+      <Filter>arch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\platform\win32\NetWorkWin.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\platform\win32\NetAddressImpl.cpp">
+      <Filter>platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\arch\ArchConsoleStd.cpp">
+      <Filter>arch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\net\ISocket.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\common\IInterface.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\net\IListenSocket.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\net\IDataSocket.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\io\IStream.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\net\NetworkAddress.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\arch\Arch.h">
+      <Filter>arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\net\INetWork.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\arch\ArchNetWork.h">
+      <Filter>arch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\platform\win32\NetWorkWin.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\platform\win32\NetAddressImpl.h">
+      <Filter>platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\arch\ArchConsoleStd.h">
+      <Filter>arch</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿Build started 3/16/2015 2:49:35 PM.
+     1>Project "G:\Util\setup\win\UtilSetup\UtilSetup\UtilSetup.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\UtilSetup.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IG:\Util\src\net /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\src\demo\WinProc.cpp ..\..\..\..\src\net\ISocket.cpp
+         ISocket.cpp
+         WinProc.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Util\setup\win\UtilSetup\Debug\UtilSetup.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\UtilSetup.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\Util\setup\win\UtilSetup\Debug\UtilSetup.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Util\setup\win\UtilSetup\Debug\UtilSetup.lib" /MACHINE:X86 Debug\WinProc.obj
+         Debug\ISocket.obj
+         UtilSetup.vcxproj -> G:\Util\setup\win\UtilSetup\Debug\UtilSetup.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"G:\Util\setup\win\UtilSetup\Debug\UtilSetup.exe.manifest" /manifest Debug\UtilSetup.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\UtilSetup.unsuccessfulbuild".
+         Touching "Debug\UtilSetup.lastbuildstate".
+     1>Done Building Project "G:\Util\setup\win\UtilSetup\UtilSetup\UtilSetup.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.95
